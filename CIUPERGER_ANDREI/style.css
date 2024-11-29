@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: inline-block;
+    background-color: peachpuff;
+    padding: 10px;
+    border: 5px solid black;
+    width: 70%;
+    text-align: left;
+}
+
+.container span {
+    color: slateblue;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.email {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.content h2 {
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+
+table {
+    margin-left: 15%;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid purple;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container {
+    background-color: #d7efff;
+    border: 2px solid brown;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.image-container ul {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    bo
